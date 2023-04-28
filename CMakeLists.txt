@@ -41,7 +41,11 @@ endif()
 ###############################################################################
 
 # NOTE: update executable name in .github/workflows/cmake.yml when changing name here
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp Class_package/Class_Package.h Class_package/Class_Package.cpp Class_package/Class_Car/Class_Car.cpp Class_package/Class_Car/Class_Car.h
+        Class_package/Class_Car/HeavyException.h  Class_package/Class_Car/SClass_Truck.cpp Class_package/Class_Car/SClass_Truck.h Class_package/Class_Car/SClass_Van.cpp
+        Class_package/Class_Car/SClass_Truck.h Class_package/Class_Order/Class_Order.h Class_package/Class_Order/Class_Order.cpp)
+
+
 
 ###############################################################################
 
